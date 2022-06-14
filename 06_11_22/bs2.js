@@ -3,7 +3,7 @@ function randomIntFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-//locations
+//variable decloration
 let location1 = randomIntFromInterval(0, 6);
 let location2;
 let location3;

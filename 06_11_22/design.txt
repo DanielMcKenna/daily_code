@@ -1,0 +1,48 @@
+Goal: 
+sink the browsers ships in the fewest number of guesses. You're given a rating based on how well you perform
+
+Setup: 
+When the game program is launched, the computer places ships on a virtual grid. When that's done, the game asks for your first guess.
+
+How you play:
+The browser will prompt you to enter a guess and you'll type in a grid location. In response to your guess, you'll see a result of "hit", "miss", or "you sank my battleship!" When you sink all the ships, the game ends by displaying your rating
+
+
+High-level Design:
+1: User starts the game
+  1A: Game places a battleship at a random location on the grid.
+2: Game play begins
+Repeat the following until the battleship is sunk:
+ 2A: Prompt user for a guess("2", "0", etc.)
+ 2B: Check the user's guess against the battleship to look for a hit, miss or sink.
+
+ 3: game finishes
+ give the user a rating based on the number of guesses.
+
+
+
+ 1: starts
+  1A: game Setup
+ 2:
+  2A: Get user guess
+  2B: check guess
+    if miss get user guess against
+    if hit mark ship as hit user guess's against
+    if ship is sunk move to 3
+3: Display user score/rating
+4: game over
+
+
+MVP:
+Simple virtual grid
+ship: 3 spaces
+Grid: 1 row of 7 columns (0-6)
+
+Get user input:
+  prompt function when we need to get a new location fro the user well use prompt to display a message and get the input
+
+Display results:
+alert function to show the output of the game.
+
+
+This will be clunky but it will work.

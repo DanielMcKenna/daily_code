@@ -1,0 +1,27 @@
+Learning about the internet.
+
+
+Internet - is just a bunch of connected devices communicating to each other.
+a network of networks
+
+The internet is a infrastructure that carries data like email, the web, file sharing, gaming, streaming
+
+
+Router - idividual machines are identified by IP's.
+
+Data makes its way through a cable at some point
+
+data moves through pulses of light
+
+The Web - an information system where documents and other resources are available over the internet.
+  DAta transferred via HTTP.
+
+  HTTP - HyperText Transfer Protocol - standardized set of rules for transferring files/data over the web
+
+  URL: Uniform Resource Locators - address of a web page
+
+
+  example: when you hit refresh you are making a request to that URL location display said data.
+  example facebook if you hit refresh on the url you are requesting data from the facebook servers they get the request then send you back a response to your browser.
+
+  facebook - web server | Browser - client
